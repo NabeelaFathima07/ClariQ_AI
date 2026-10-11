@@ -1,0 +1,15 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+PyJWT[crypto]>=2.8
+pypdf>=4.0
+python-docx>=1.1
+streamlit>=1.30.0
+SpeechRecognition>=3.10.0
+gTTS>=2.5.0
+# optional: Slack bot
+slack-bolt>=1.18
+# optional: OCR for scanned PDFs (also needs the Tesseract binary)
+# pytesseract>=0.3.10
+# pypdfium2>=4.30
